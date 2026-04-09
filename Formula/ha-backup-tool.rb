@@ -7,12 +7,12 @@ class HaBackupTool < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/librun/tools"
-    rebuild 2
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "c740fe746570e1ffd4741ac8b13966959efc51334da514a2dc6f8ddfe902f260"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "33891c44fcc58eef02d4f7b1bced0b17a8b524f64d4ba01c1f0bdc1cf834d754"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "aab547c04857411bb8e2def9e37cea71d0b63dc22d59f3a4eacae9cd07c2a1f3"
-    sha256 cellar: :any_skip_relocation, sequoia:       "c0155adfed5a91f0e8b4b18c2e43816d8a011b43456fdd78f98208dbcdb9aeb8"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "8170190e4a7ee8f9e30697e366161cbc3f15bcd2fa91119ef794ef98c95cdc8d"
+    rebuild 3
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "ba0c683e25692558e24d14e6e8820f6a401a7ad202785fd47ba7704c71996769"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "810de2b93d7be7979e7d9c262ce0824f9231cc3902b9b048a1bfa5172f85bd40"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "0b7b6202f4c78ce493db2db8549ce732af7dd978c580d3ab8cd25efd507db151"
+    sha256 cellar: :any_skip_relocation, sequoia:       "23b981e601a4c1602316748e432dd24e97f1dddb8086543bfd6567d6b442ed5f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "60f5636542615f15ab9eebc9853bbf08312fc9393dffcd98b8e6cfa2801ab718"
   end
 
   depends_on "go" => :build
