@@ -1,8 +1,8 @@
 class HaBackupTool < Formula
   desc "Tool for work with Home Assistant Backup"
   homepage "https://github.com/librun/ha-backup-tool"
-  url "https://github.com/librun/ha-backup-tool/archive/refs/tags/v1.5.1.tar.gz"
-  sha256 "582105aabce3d24189e53ab81bab2034e845b13fcd98d9635d4241981c9d726d"
+  url "https://github.com/librun/ha-backup-tool/archive/refs/tags/v1.5.2.tar.gz"
+  sha256 "d46d902c44cebb8ef650bc36486a6c568637da39b9397dd1c73a5d06a7848338"
   license "MIT"
 
   bottle do
